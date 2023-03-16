@@ -14,7 +14,6 @@ export default function Hero({ }: Props) {
     const [text,count] = useTypewriter({
         words:[
             `Hey there, Sathwic here!`,
-            "I dream of working in metaverse",
         ],
         loop: true,
         delaySpeed: 2000,

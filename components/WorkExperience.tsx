@@ -33,6 +33,18 @@ point1='Worked on developing reusable ReactJS components to be used across multi
 point2='Contributed to the development of responsive and accessible user interfaces using ReactJS'
 point3='Worked with RESTful APIs to fetch and manipulate data for use in ReactJS applications'
 />
+<ExperienceCard role='Content Manager Trainee' companyName='Salman Needs A Job' companyImage='/company-logos/salman.jpg' started='2022-12-01' ended='2023-01-31'
+
+point1='Managed YouTube channel, including uploading, publishing, and promoting videos to increase reach and engagement'
+point2='Optimized content for search engine optimization (SEO) and user engagement, including title, description, tags, and thumbnail images'
+point3='Conducted research on web3 technologies'
+/>
+<ExperienceCard role='Lumos Wizard' companyName='Lumos Labs - Metaverse' companyImage='/company-logos/lumoswizards.png' started='2023-02-01' ended='present'
+
+point1='Conducted research on web3 communities and community management'
+point2='Worked in teams and learned to play the role of active team player'
+point3='Conducted research and formulated content on web3 technologies'
+/>
 
 
       </div>

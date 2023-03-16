@@ -1,5 +1,6 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
+import {SocialIcon} from 'react-social-icons';
+
 import { motion } from 'framer-motion'; 
 import Link from 'next/link';
 
@@ -28,14 +29,23 @@ export default function Header({ }: Props) {
         }}
          className='flex flex-row items-center'>
 
+<SocialIcon
+ bgColor='transparent'
+ url="https://www.linkedin.com/in/sathwic-raj"
+ fgColor='gray' />
+ <SocialIcon
+ bgColor='transparent'
+ url="https://www.twitter.com/sathwic97"
+ fgColor='gray' />
 
-<SocialIcon/>
-
-
+<SocialIcon
+ bgColor='transparent'
+ url="https://www.github.com/sathwic97"
+ fgColor='gray'/>
         </motion.div>
 
-{/* 
-        <Link href='#contact'>
+
+        
             
         <motion.div
         initial={{
@@ -57,10 +67,10 @@ export default function Header({ }: Props) {
             network='email'
             fgColor='gray'
             bgColor='transparent'/>
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Send me a mail!</p>
+          <Link href='#contact'>  <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Send me a mail!</p> </Link>
         </motion.div>
         
-        </Link> */}
+        
 
     </header>
     

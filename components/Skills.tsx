@@ -24,10 +24,13 @@ export default function Skills({ }: Props) {
         <div className='grid grid-cols-4 gap-5 mt-12'>
 
 <Skill skillImage='/skill-icons/javascript-icon.png' progress={75}  />
+<Skill skillImage='/skill-icons/typescript-icon.png' progress={60}  />
 <Skill skillImage='/skill-icons/css-icon.png' progress={75}  />
 <Skill skillImage='/skill-icons/html-icon.png' progress={80}  />
 <Skill skillImage='/skill-icons/react-js-icon.png' progress={85}  />
 <Skill skillImage='/skill-icons/next-js-icon.png' progress={65}  />
+<Skill skillImage='/skill-icons/framer-motion-icon.png' progress={70} directionLeft  />
+<Skill skillImage='/skill-icons/material-ui-icon.png' progress={70} directionLeft  />
 <Skill skillImage='/skill-icons/tailwind-css-icon.png' progress={70} directionLeft  />
 <Skill skillImage='/skill-icons/node-js-icon.png' progress={55} directionLeft  />
 <Skill skillImage='/skill-icons/mongodb-icon.png' progress={45} directionLeft  />
