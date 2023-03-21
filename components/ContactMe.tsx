@@ -33,10 +33,6 @@ export default function ContactMe({}: Props) {
 
 <div>
     <div className='flex items-center p-1 space-x-5 justify-center'>
-    <PhoneIcon className='text-[#39FF14] h-7 w-7 animate-pulse'/>
-    <p className='text-sm sm:text-lg'>+91-7780745188</p>
-    </div>
-    <div className='flex items-center p-1 space-x-5 justify-center'>
     <MapPinIcon className='text-[#39FF14] h-7 w-7 animate-pulse'/>
     <p className='text-sm sm:text-lg '>Proddatur,Andhra Pradesh - 516360.</p>
     </div>

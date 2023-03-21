@@ -1,8 +1,10 @@
 import React from 'react';
 import {SocialIcon} from 'react-social-icons';
+import { EnvelopeIcon } from '@heroicons/react/20/solid';
 
 import { motion } from 'framer-motion'; 
 import Link from 'next/link';
+
 
 
 
@@ -46,7 +48,7 @@ export default function Header({ }: Props) {
 
 
         
-            
+        <Link href='#contact'>  
         <motion.div
         initial={{
             x: 500,
@@ -63,13 +65,10 @@ export default function Header({ }: Props) {
             duration:1.5,
         }}
         className='flex flex-row items-center text-gray-300 cursor-pointer'>
-           <SocialIcon className='cursor-pointer'
-            network='email'
-            fgColor='gray'
-            bgColor='transparent'/>
-          <Link href='#contact'>  <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Send me a mail!</p> </Link>
+          <EnvelopeIcon className='text-gray-600 w-9 h-9' />
+           <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Send me a mail!</p> 
         </motion.div>
-        
+        </Link>
         
 
     </header>
