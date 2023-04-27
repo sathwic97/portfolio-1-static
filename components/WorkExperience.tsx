@@ -33,7 +33,7 @@ point1='Translated designs into clean, efficient, and maintainable code and gain
 point2='Contributed to the development of responsive and accessible user interfaces using ReactJS'
 point3='Worked with RESTful APIs and Asynchoronous programming to fetch and manipulate data for use in ReactJS applications'
 />
-<ExperienceCard role='Lumos Wizard' companyName='Lumos Labs - Metaverse' companyImage='/company-logos/lumoswizards.png' started='2023-02-01' ended='present'
+<ExperienceCard role='Lumos Wizard' companyImage='/company-logos/lumoswizards.png' companyName='Lumos Labs - Metaverse'  started='2023-02-01' ended='present'
 
 point1='Web3 centric social media content design and writing.'
 point2='Underwent various educational sessions regarding the web3 ecosystem'
