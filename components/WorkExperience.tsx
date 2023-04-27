@@ -33,18 +33,19 @@ point1='Translated designs into clean, efficient, and maintainable code and gain
 point2='Contributed to the development of responsive and accessible user interfaces using ReactJS'
 point3='Worked with RESTful APIs and Asynchoronous programming to fetch and manipulate data for use in ReactJS applications'
 />
-<ExperienceCard role='Content Manager Trainee' companyName='Salman Needs A Job' companyImage='/company-logos/salman.jpg' started='2022-12-01' ended='2023-01-31'
-
-point1='Managed YouTube channel, including uploading, publishing, and promoting videos to increase reach and engagement'
-point2='Optimized content for search engine optimization (SEO) and user engagement, including title, description, tags, and thumbnail images'
-point3='Conducted research on web3 technologies'
-/>
 <ExperienceCard role='Lumos Wizard' companyName='Lumos Labs - Metaverse' companyImage='/company-logos/lumoswizards.png' started='2023-02-01' ended='present'
 
 point1='Web3 centric social media content design and writing.'
 point2='Underwent various educational sessions regarding the web3 ecosystem'
 point3='Gained experience on content design and content writing as well as developed good communication skills resulting in being able to play the role of a better team-player and a strategic contributor'
 />
+<ExperienceCard role='Content Manager Trainee' companyName='Salman Needs A Job' companyImage='/company-logos/salman.jpg' started='2022-12-01' ended='2023-01-31'
+
+point1='Managed YouTube channel, including uploading, publishing, and promoting videos to increase reach and engagement'
+point2='Optimized content for search engine optimization (SEO) and user engagement, including title, description, tags, and thumbnail images'
+point3='Conducted research on web3 technologies'
+/>
+
 
 
       </div>
