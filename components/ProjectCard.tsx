@@ -5,12 +5,11 @@ import Image from 'next/image';
 
 type Props = {
     projectTitle:string;
-    projectImage:string;
     projectSummary: string;
     technologiesUsed: string;
 }
 
-export default function ProjectCard({projectImage,projectSummary,projectTitle,technologiesUsed}: Props) {
+export default function ProjectCard({projectSummary,projectTitle,technologiesUsed}: Props) {
   return (
     <motion.div
 // initial={{
@@ -38,10 +37,10 @@ whileHover={{
     scale:1.2
 }}
 >
-<Image
+{/* <Image
 
 fill
-src={projectImage} className='object-cover' alt='image'/>
+src={projectImage} className='object-cover' alt='image'/> */}
 </motion.div>
 
 <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -59,7 +58,7 @@ technologies used
 
 <p className='mb-5'>{projectSummary}</p>
 <ul className='list-disc space-y-4 ml-5 text-md sm:text-lg'>
-  <li>{technologiesUsed}</li>
+  <li>Technologies used : {technologiesUsed}</li>
 
   </ul>
 </motion.div>

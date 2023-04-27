@@ -29,12 +29,14 @@ export default function Projects({}: Props) {
     
 <div className='relative w-full flex scrollbar-track-gray-400/20 scrollbar-thumb-[#39FF14]/80 scrollbar-thin overflow-x-scroll overflow-y-hidden snap-x
 snap-mandatory z-20'>
- 
-<ProjectCard projectTitle='BRN Pulse' projectImage='/project-snaps/brn-pulse.jpg' projectSummary='This project was conceptualized
+  <ProjectCard projectTitle='Resume Builder' projectSummary='This Capstone project is being developed under the aim to bring trendy and latest resume templates for free. The website is designed to be mobile-responsive with clean and user friendly interface. This website lets the user to choose a resume template which later can be downloaded after filling in the details. ' technologiesUsed='ReactJS, JavaScript, HTML, CSS, Redux Toolkit, Material UI, React-Hook-Form'/>
+<ProjectCard projectTitle='Shopping Cart' projectSummary='This is a simple examplary academic using redux toolkit. Using redux toolkit, a replica of an E-commerce website shopping cart has been developed.' technologiesUsed='ReactJS, JavaScript, HTML, CSS, Redux Toolkit'/>
+<ProjectCard projectTitle='BRN Pulse' projectSummary='This project was conceptualized
  to enhance student interactions with the
- institution and to simply attendance, task assignments and task submissions' technologiesUsed='ReactJS, JavaScript, HTML, CSS, Redux, MongoDB, NodeJS'/>
- <ProjectCard projectTitle='Portfolio' projectImage='/project-snaps/portfolio-1.jpg' projectSummary='A modern portfolio using nextJS, tailwindCSS,
-  framer motion, vercel and sanity technologies.' technologiesUsed='NextJS, TypeScript, Sanity, Framer Motion, Tailwind CSS'/>
+ institution and to simply attendance, task assignments and task submissions.
+ This website is a mobile-responsive with user-friendly interface.' technologiesUsed='ReactJS, JavaScript, HTML, CSS, Redux, MongoDB, NodeJS'/>
+ <ProjectCard projectTitle='Portfolio' projectSummary='A modern portfolio using nextJS, tailwindCSS,
+  framer motion, vercel and sanity technologies. This portfolio has been a personal project to showcase my works and potential.' technologiesUsed='NextJS, TypeScript, Sanity, Framer Motion, Tailwind CSS'/>
 
 
 
