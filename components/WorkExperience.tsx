@@ -29,9 +29,9 @@ export default function WorkExperience({  }: Props) {
 
 <ExperienceCard role='React Trainee' companyName='BRN Infotech' companyImage='/company-logos/brninfotech.png' started='2022-05-01' ended='2022-10-30'
 
-point1='Worked on developing reusable ReactJS components to be used across multiple projects'
+point1='Translated designs into clean, efficient, and maintainable code and gained experience on version control systems like Git and debugging tools like Jest'
 point2='Contributed to the development of responsive and accessible user interfaces using ReactJS'
-point3='Worked with RESTful APIs to fetch and manipulate data for use in ReactJS applications'
+point3='Worked with RESTful APIs and Asynchoronous programming to fetch and manipulate data for use in ReactJS applications'
 />
 <ExperienceCard role='Content Manager Trainee' companyName='Salman Needs A Job' companyImage='/company-logos/salman.jpg' started='2022-12-01' ended='2023-01-31'
 
@@ -41,9 +41,9 @@ point3='Conducted research on web3 technologies'
 />
 <ExperienceCard role='Lumos Wizard' companyName='Lumos Labs - Metaverse' companyImage='/company-logos/lumoswizards.png' started='2023-02-01' ended='present'
 
-point1='Conducted research on web3 communities and community management'
-point2='Worked in teams and learned to play the role of active team player'
-point3='Conducted research and formulated content on web3 technologies'
+point1='Web3 centric social media content design and writing.'
+point2='Underwent various educational sessions regarding the web3 ecosystem'
+point3='Gained experience on content design and content writing as well as developed good communication skills resulting in being able to play the role of a better team-player and a strategic contributor'
 />
 
 
