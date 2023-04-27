@@ -42,7 +42,7 @@ whileHover={{
 
 className='relative  mx-auto'>
         <motion.img className='rounded-full h-32 w-32 object-cover transition ease-in-out'
-        src={'/img1.webp'}
+        src={'/heroImage.webp'}
         
         alt="my image"
        />

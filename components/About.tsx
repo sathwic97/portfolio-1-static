@@ -45,7 +45,7 @@ transition={{
         viewport={{
             once: true
         }}>
-            <Image src={'/img2.jpg'}
+            <Image src={'/aboutImage.jpeg'}
             fill
             alt='another image of me'
             className='object-cover md:rounded-lg rounded-full'/>
@@ -53,9 +53,7 @@ transition={{
          </motion.div>
          <div className="px-0 space-y-10 md:px-10">
             <h4 className="text-4xl md:text-3xl mt-5 font-semibold" >A little <span className='text-[#39FF14]'>intro</span></h4>
-           <p className='sm:text-md md:text-lg text-xs scrollbar-thumb-[#39FF14]/80 w-fit h-auto overflow-y-auto'> I am a B. Com Computer Applications Graduate of 2021 ( GPA - 7.54). I have completed 6 months of training in MERN Full Stack Development which deals in web development and creating responsive websites using React Framework (REACT JS).
-            I have completed Front-end development module in AlmaBetter Full Stack Web Development course. I have always been upto date with whatever tasks that were given to test our learnings.
-            I am a curious learner, Resilient, Creative and Versatile.</p>
+           <p className='sm:text-md md:text-lg text-xs scrollbar-thumb-[#39FF14]/80 w-fit h-auto overflow-y-auto'> Curious, Creative, Resilient and Versatile, these four traits have always defined me as an individual as well as an employee. My name is Sathwic, I am a B.Com Computer Applications grad of 2021 with GPA 7.54. I have undergone six months of MERN Stack Web Development training while working as a React Trainee. Later, went on to join Lumos Labs as Lumos Wizard and am further honing my content design and writing skills as well as my communication skills. I have always been an excellent team player and not hesitant to take charge when time demands. With love for Metaverse AR / VR and WebXR development, I love the work I do and my passion to code helps me push my boundaries everyday. I currently am seeking job opportunities as a front-end web developer, would love to work in an challenging environment and always remain curious to learn new things as I go forward.</p>
             
          </div>
          </motion.div>
