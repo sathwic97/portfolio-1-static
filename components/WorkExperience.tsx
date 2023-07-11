@@ -27,7 +27,7 @@ export default function WorkExperience({  }: Props) {
       <div className='w-screen mt-16 h-[72%] flex space-x-5 scrollbar-track-gray-400/20 scrollbar-thumb-[#39FF14]/80 scrollbar-thin overflow-x-auto p-10 snap-x snap-mandatory'>
 
 
-<ExperienceCard role='React Developer' companyName='Cureus Technologies Private Limited' companyImage='/company-logos/cureus.png' started='2021-10' ended='present'
+<ExperienceCard role='React Developer' companyName='Cureus Technologies Private Limited' companyImage='/company-logos/cureus.png' started='2021-08' ended='present'
 
 point1='Translated designs into clean, efficient, and maintainable code and gained experience on version control systems like Git and debugging tools like Jest'
 point2='Contributed to the development of responsive and accessible user interfaces using ReactJS'
